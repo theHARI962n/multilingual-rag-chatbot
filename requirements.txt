@@ -1,0 +1,11 @@
+streamlit
+langchain
+langgraph
+langchain-community
+langchain-groq
+chromadb
+pypdf
+faster-whisper
+yt-dlp
+pydub
+sentence-transformers

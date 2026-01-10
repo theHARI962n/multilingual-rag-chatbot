@@ -15,6 +15,20 @@ with memory rentention,meaning this RagBot has Conversational memory which makes
 - Google colab
 - VS code
 
+## Features
+- Upload any PDF and build a searchable knowledge base
+- Chunking & embeddings with HuggingFace multilingual embeddings
+- Contextual question answering using LangGraph + ChatGroq
+- Memory-enabled conversation with context from previous questions
+- Streamlit UI for interactive Q&A
+
+
+
 ## Model used:
 - model="llama-3.1-8b-instant"
 
+### API Key:
+A Groq API key: set in a .env file as GROQ_API_KEY
+
+### Install dependencies
+pip install streamlit langchain-community langchain-groq langchain-core langchain-text-splitters langgraph chromadb python-dotenv
